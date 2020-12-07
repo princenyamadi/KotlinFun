@@ -1,38 +1,26 @@
 fun main(args: Array<String>) {
-//    Math and Comments
-    /*
-    * Multi-line commments
-    *
-    * */
-    // single line comments
+//    If Statements and Booleans
+
+    var isTheDogAlive: Boolean = false
+
+    if(isTheDogAlive){
+        println("Dog is alive")
+    }else{
+        println("Dog is not alive")
+    }
 
 
-    var weight:Double = 300.0
+    var age = 28
 
-    var radius = 6
+    if(age != 18){
+        println("are u legal")
+    }else{
+        println("Welcome")
+    }
 
-    var pi = 3.14
+    var name: String = "Prince"
+    print("$name is a baws")
 
-    var c = radius * pi * 2
-
-    var circf: Int = radius * pi.toInt() * 2
-    println(c)
-    println(circf)
-
-
-    var wallet = 40
-    wallet -= 5
-
-    println(wallet)
-
-    var age: Int = 22
-    age += 40
-    println(age)
-
-
-/*
-* I will be happy
-* */
 
 
 
