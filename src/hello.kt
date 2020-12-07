@@ -1,18 +1,40 @@
 fun main(args: Array<String>) {
-    println("Hello Kotlin")
-//    setting variable types variable_name: [type] = [value
-    var age: Int  = 28
+//    Math and Comments
+    /*
+    * Multi-line commments
+    *
+    * */
+    // single line comments
 
+
+    var weight:Double = 300.0
+
+    var radius = 6
+
+    var pi = 3.14
+
+    var c = radius * pi * 2
+
+    var circf: Int = radius * pi.toInt() * 2
+    println(c)
+    println(circf)
+
+
+    var wallet = 40
+    wallet -= 5
+
+    println(wallet)
+
+    var age: Int = 22
+    age += 40
     println(age)
 
-     var favCandy: String = "snicker"
+
+/*
+* I will be happy
+* */
 
 
-//    String Interpolation
-    println("I am $age years old and I love $favCandy")
 
-    var name: String = "Prince"
-
-    println(name)
 
 }
