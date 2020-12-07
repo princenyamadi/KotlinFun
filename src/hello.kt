@@ -1,19 +1,42 @@
 fun main(args: Array<String>) {
-// Maps
+// functions
 
-    var dogs = mapOf("Fido" to 8, "Sarah" to 17, "Sean" to 6) //not mutable
-    print(dogs["Fido"])
+    fun hello(){
+        println("Hello World")
+    }
 
-    var doggies = mutableMapOf("Fido" to 8, "Sarah" to 17, "Sean" to 6)
-    doggies["Jeremy"] = 52
+    hello()
+
+    fun hi(): String{
+        return "Hi World!"
+    }
+
+    println(hi())
 
 
-//    make a map that holds 3 words and 3 definitions of slang you use
-    var slangs = mutableMapOf("waguan" to "Whats going", "you dey" to "Hope you are well", "hung" to "hungry")
+    fun hey(name: String): String{
+        return "Hey $name"
+    }
+
+    println(hey("Biggie"))
+
+
+    fun hlo(name: String = "Kiss"): String{
+        return "$name my a**"
+    }
+
+    println(hlo())
 
 
 
+    fun addNumbers(num1: Int, num2: Int, num3: Int): Int{
+        return num1 + num2 + num3
+    }
 
+    fun addNums(num1:Int, num2:Int, num3:Int) = num1 + num2 + num3
 
+    fun dog(name: String, age: Int){
+        println("$name is $age years old")
+    }
 
 }
