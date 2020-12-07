@@ -1,25 +1,17 @@
 fun main(args: Array<String>) {
-//    If Statements and Booleans
+//Lists and Arrays
 
-    var isTheDogAlive: Boolean = false
+    var luckyNumbers  = listOf(1,2,3,4,5);
 
-    if(isTheDogAlive){
-        println("Dog is alive")
-    }else{
-        println("Dog is not alive")
-    }
+    var arrayNums = arrayOf(1,2,3,4,5)
 
 
-    var age = 28
+//    mutables
+    var mutList = mutableListOf(1,2,3,45,6)
+    mutList.add(9)
 
-    if(age != 18){
-        println("are u legal")
-    }else{
-        println("Welcome")
-    }
 
-    var name: String = "Prince"
-    print("$name is a baws")
+    var arrList: List<String> = arrayListOf("Sandlot","emperor's new groove","Fast and Furious")
 
 
 
