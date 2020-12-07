@@ -1,42 +1,34 @@
 fun main(args: Array<String>) {
-// functions
+// Classes
+    class Dog(var name: String, var age: Int){
 
-    fun hello(){
-        println("Hello World")
+
+
+}
+
+    var myDawg = Dog("Dogie",8)
+    myDawg.name
+    myDawg.age
+
+    class Cat{
+        var name: String
+        var age: Int
+//
+//        init {
+//            name = ""
+//            age=0
+//
+//        }
+        constructor(name:String, age: Int){
+        this.age =age
+        this.name = name
+}
+
+        fun catInfo(){
+            println("$name is $age years")
+
+        }
+
+
     }
-
-    hello()
-
-    fun hi(): String{
-        return "Hi World!"
-    }
-
-    println(hi())
-
-
-    fun hey(name: String): String{
-        return "Hey $name"
-    }
-
-    println(hey("Biggie"))
-
-
-    fun hlo(name: String = "Kiss"): String{
-        return "$name my a**"
-    }
-
-    println(hlo())
-
-
-
-    fun addNumbers(num1: Int, num2: Int, num3: Int): Int{
-        return num1 + num2 + num3
-    }
-
-    fun addNums(num1:Int, num2:Int, num3:Int) = num1 + num2 + num3
-
-    fun dog(name: String, age: Int){
-        println("$name is $age years old")
-    }
-
 }
