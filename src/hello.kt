@@ -1,20 +1,22 @@
 fun main(args: Array<String>) {
-//Lists and Arrays
+// For Loops
 
-    var luckyNumbers  = listOf(1,2,3,4,5);
+    for(x in 1..10){
+        println(x)
+    }
 
-    var arrayNums = arrayOf(1,2,3,4,5)
+    var favCandy = listOf("Snickers", "100 grand bar", "Fun Dip")
 
+    for( i in favCandy){
+        println(i)
+    }
 
-//    mutables
-    var mutList = mutableListOf(1,2,3,45,6)
-    mutList.add(9)
-
-
-    var arrList: List<String> = arrayListOf("Sandlot","emperor's new groove","Fast and Furious")
-
-
-
+//    Loop through the number 1 to 200 and print out all odd numbers
+    for(i in 0..200){
+        if( i % 2 == 1){
+            println(i)
+        }
+    }
 
 
 }
