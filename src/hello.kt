@@ -1,22 +1,19 @@
 fun main(args: Array<String>) {
-// For Loops
+// Maps
 
-    for(x in 1..10){
-        println(x)
-    }
+    var dogs = mapOf("Fido" to 8, "Sarah" to 17, "Sean" to 6) //not mutable
+    print(dogs["Fido"])
 
-    var favCandy = listOf("Snickers", "100 grand bar", "Fun Dip")
+    var doggies = mutableMapOf("Fido" to 8, "Sarah" to 17, "Sean" to 6)
+    doggies["Jeremy"] = 52
 
-    for( i in favCandy){
-        println(i)
-    }
 
-//    Loop through the number 1 to 200 and print out all odd numbers
-    for(i in 0..200){
-        if( i % 2 == 1){
-            println(i)
-        }
-    }
+//    make a map that holds 3 words and 3 definitions of slang you use
+    var slangs = mutableMapOf("waguan" to "Whats going", "you dey" to "Hope you are well", "hung" to "hungry")
+
+
+
+
 
 
 }
